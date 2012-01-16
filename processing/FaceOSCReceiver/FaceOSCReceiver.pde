@@ -27,6 +27,7 @@ void setup() {
   size(640, 480);
   frameRate(30);
 
+  // FaceOSC sends to port 8338 by default
   oscP5 = new OscP5(this, 8338);
   oscP5.plug(this, "mouthWidthReceived", "/gesture/mouth/width");
   oscP5.plug(this, "mouthHeightReceived", "/gesture/mouth/height");
