@@ -1,0 +1,13 @@
+
+# apps
+bin/*.app
+
+# xcode user files
+*.pbxuser
+*perspectivev3
+
+# OSX files
+.DS_Store
+
+# build
+build
