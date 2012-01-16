@@ -20,3 +20,4 @@ Make sure FaceOSC is running and a face is detected (face mesh is drawn).
 Further info:
 
 * FaceOSC uses port 8338 by default for OSC communication
+* the FaceOSC window size is 640 x 480
