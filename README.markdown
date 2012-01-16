@@ -4,7 +4,7 @@ Face Osc Templates
 2012 [Dan Wilcox](http://danomatika.com), et al.
 for the Spring 2012 IACD class at the CMU School of Art
 
-Templates for receiving face tracking [Open Sound Control](http://opensoundcontrol.org/introduction-osc) messages from Kyle McDonald's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) wrapper around Jason Saradigh’s [FaceTracker](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html)
+Templates for receiving face tracking [Open Sound Control](http://opensoundcontrol.org/introduction-osc) messages from Kyle McDonald's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) wrapper around Jason Saragigh’s [FaceTracker](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html)
 
 Download [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) and get started with a template project for one of the following creative coding environments:  
 
