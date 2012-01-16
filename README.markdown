@@ -11,7 +11,11 @@ Download Kyle's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloa
 	* currently requires OF version 007
 	* make sure to copy the FaceOSCReceiver folder into the openframeworks/apps/myApps folder (it must be 3 levels deep)
 * [Max](http://cycling74.com/)
-* [Pure Data Extended](http://puredata.info/): requires Pd-Extended
+	* requires the [CNMAT Everything for Max package](http://cnmat.berkeley.edu/downloads) for the (OSC-route) object
+* [Pure Data Extended](http://puredata.info/)
+	* requires Pd-Extended for the [OSCroute] and [udpreceive] objects (mark of the mrpeach external, included in extended)
+
+Make sure FaceOSC is running and a face is detected (face mesh is drawn).
 
 Further info:
 

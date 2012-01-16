@@ -1,4 +1,4 @@
-#N canvas 842 294 430 704 10;
+#N canvas 496 474 717 723 10;
 #X obj 39 41 udpreceive 8338;
 #X obj 39 71 unpackOSC;
 #X obj 39 574 routeOSC /position /scale /orientation;
@@ -27,6 +27,19 @@
 #X text 38 13 FaceOSC sends on port 8338 by default;
 #X obj 39 152 routeOSC /pose /gesture /found;
 #X obj 61 102 s FACEOSC;
+#X text 412 40 2012 Dan Wilcox danomatika.com for the IACD class at
+the CMU School of Art;
+#X obj 371 576 maxlib/scale 0 10 150 800;
+#X obj 552 578 maxlib/scale 6 9 0 0.6;
+#X floatatom 371 605 5 0 0 0 - - -;
+#X floatatom 552 606 5 0 0 0 - - -;
+#X obj 371 633 osc~;
+#X obj 371 663 *~;
+#X obj 371 690 dac~;
+#X text 368 486 mouth height controls oscilator pitch \, raise left
+eyebrow for volume boost;
+#X text 413 82 based on the example max by Craig Fahner http://cmuems.com/2011/a/unit-60-pd/
+;
 #X connect 0 0 1 0;
 #X connect 1 0 26 0;
 #X connect 1 0 27 0;
@@ -40,11 +53,13 @@
 #X connect 4 1 7 0;
 #X connect 12 0 11 0;
 #X connect 12 1 13 0;
+#X connect 13 0 29 0;
 #X connect 14 0 12 0;
 #X connect 14 1 17 0;
 #X connect 14 2 22 0;
 #X connect 14 3 18 0;
 #X connect 14 4 19 0;
+#X connect 15 0 30 0;
 #X connect 17 0 15 0;
 #X connect 17 1 16 0;
 #X connect 22 0 20 0;
@@ -52,3 +67,10 @@
 #X connect 26 0 2 0;
 #X connect 26 1 14 0;
 #X connect 26 2 23 0;
+#X connect 29 0 31 0;
+#X connect 30 0 32 0;
+#X connect 31 0 33 0;
+#X connect 32 0 34 1;
+#X connect 33 0 34 0;
+#X connect 34 0 35 0;
+#X connect 34 0 35 1;
