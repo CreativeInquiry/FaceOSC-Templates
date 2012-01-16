@@ -1,9 +1,12 @@
 Face Osc Templates
 ------------------
 
-templates for receiving face tracking [Open Sound Control](http://opensoundcontrol.org/introduction-osc) messages from Kyle McDonald's [ofxFaceTracker](https://github.com/kylemcdonald/ofxFaceTracker) wrapper around Jason Saradigh’s [FaceTracker](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html)
+2012 [Dan Wilcox](http://danomatika.com), et al.
+for the Spring 2012 IACD class at the CMU School of Art
 
-Download Kyle's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) and get started with a template project for one of the following creative coding environments:  
+Templates for receiving face tracking [Open Sound Control](http://opensoundcontrol.org/introduction-osc) messages from Kyle McDonald's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) wrapper around Jason Saradigh’s [FaceTracker](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html)
+
+Download [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) and get started with a template project for one of the following creative coding environments:  
 
 * [Processing](http://processing.org/)
 	* requires the [OscP5 library](http://www.sojamo.de/libraries/oscP5/)
@@ -13,7 +16,7 @@ Download Kyle's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloa
 * [Max](http://cycling74.com/)
 	* requires the [CNMAT Everything for Max package](http://cnmat.berkeley.edu/downloads) for the (OSC-route) object
 * [Pure Data Extended](http://puredata.info/)
-	* requires Pd-Extended for the [OSCroute] and [udpreceive] objects (mark of the mrpeach external, included in extended)
+	* requires Pd-Extended for the [OSCroute] and [udpreceive] objects (part of the mrpeach external included in Pd-Extended)
 
 Make sure FaceOSC is running and a face is detected (face mesh is drawn).
 
