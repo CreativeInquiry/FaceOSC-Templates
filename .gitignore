@@ -1,13 +1,28 @@
 
-# apps
-bin/*.app
-
-# xcode user files
+# xcode
+*.mode1v3
 *.pbxuser
-*perspectivev3
+*.perspectivev3
+xcuserdata
+build
+*.app
+*.a
 
-# OSX files
+# OSX
 .DS_Store
 
-# build
-build
+# codeblocks
+*.layout
+example/obj
+
+# Win
+*.exe
+*.dll
+*.vcxproj.user
+*.exp
+*.ilk
+*.lib
+*.pdb
+obj
+*.sdf
+*.suo

@@ -15,6 +15,7 @@
     <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp">
       <Filter>addons\ofxOsc\src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Face.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\testApp.h" />
@@ -36,6 +37,7 @@
     <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h">
       <Filter>addons\ofxOsc\src</Filter>
     </ClInclude>
+    <ClInclude Include="src\Face.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="addons">
