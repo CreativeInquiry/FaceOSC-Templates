@@ -132,8 +132,8 @@ public void nostrilsReceived(float f) {
 }
 
 // all other OSC messages end up here
-void oscEvent(OscMessage theOscMessage) {
-  if(theOscMessage.isPlugged() == false) {
-    println("UNPLUGGED: " + theOscMessage);
+void oscEvent(OscMessage m) {
+  if(m.isPlugged() == false) {
+    println("UNPLUGGED: " + m);
   }
 }
