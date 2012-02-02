@@ -1,4 +1,4 @@
-Face Osc Templates
+FaceOsc Templates
 ------------------
 
 2012 [Dan Wilcox](http://danomatika.com), et al.
