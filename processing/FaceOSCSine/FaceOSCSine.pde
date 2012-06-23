@@ -15,7 +15,7 @@ void setup() {
   size(512, 200);
   frameRate(30);
   oscP5 = new OscP5(this, 8338);
-  oscP5.plug(this, "poseOrientation", "/pose/orientation");
+  oscP5.plug(this, "faceScale", "/pose/scale");
   oscP5.plug(this, "posePosition", "/pose/position");
   
   
@@ -37,8 +37,8 @@ void draw() {
   }
 }
 
-public void poseOrientation(float x, float y, float z) {
-  float freq = map(x, +.2, -.5, 60, 1500);
+public void faceScale(float x) {
+  float freq = map(x, 4, 6, 60, 1500);
   sine.setFreq(freq);
 }
 
