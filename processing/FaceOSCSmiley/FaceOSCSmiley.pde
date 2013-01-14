@@ -1,3 +1,6 @@
+//
+// a bar graph for overall smiliness
+//
 // derived from the FaceOSCReceiver demo
 
 import oscP5.*;

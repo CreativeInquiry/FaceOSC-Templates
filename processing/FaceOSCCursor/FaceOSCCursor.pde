@@ -1,3 +1,11 @@
+//
+// move the mouse cursor with your face
+// angle your face left, right, up, & down
+//
+// Hit escape to exit. If another app is becomes active, 
+// use Alt-Tab/Cmd-Tab to select the running Processing Java app
+// and kill it via the keyboard.
+//
 // derived from the FaceOSCReceiver demo
 
 import oscP5.*;
@@ -50,7 +58,7 @@ public void found(int i) {
 }
 
 public void poseOrientation(float x, float y, float z) {
-  //println("pose orientation\tX: " + x + " Y: " + y + " Z: " + z);
+  println("pose orientation\tX: " + x + " Y: " + y + " Z: " + z);
   poseOrientation.set(x, y, z);
 }
 

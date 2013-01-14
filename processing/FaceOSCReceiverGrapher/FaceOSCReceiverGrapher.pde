@@ -1,3 +1,6 @@
+//
+// Can you pass the a face polygraph?
+//
 // copied and modified from the FaceOSCReceiverClass
 
 import oscP5.*;
