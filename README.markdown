@@ -25,3 +25,17 @@ Further info:
 
 * FaceOSC uses port 8338 by default for OSC communication
 * the FaceOSC window size is 640 x 480
+
+
+### OpenFrameworks Version
+
+If you are using an older version (007, ...) of OpenFrameworks then you want to use a git tag of this repo for that version. You can select the tag in the Github "Current Branch" menu or clone and check it out using git.
+
+For example, the following commands will clone  and switch to the OF 007 tagged version:
+<pre>
+git clone git://github.com/CreativeInquiry/FaceOSC-Templates.git
+cd FaceOSC-Templates
+git checkout of-007
+</pre>
+
+The current master branch shoudl work with the current OF and a tag will only be created when there is an appreciable change in OF, so there may not be a tag for *every* version of OF. 
