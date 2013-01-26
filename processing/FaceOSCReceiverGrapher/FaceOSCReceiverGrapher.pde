@@ -9,7 +9,7 @@ OscP5 oscP5;
 // our FaceOSC tracked face dat
 Face face = new Face();
 PFont font;
-Vector<Graph> graphs;
+ArrayList<Graph> graphs;
 int totalGraphs;
 
 void setup() {
@@ -26,7 +26,7 @@ void setup() {
 }
 
 void reset() {
-  graphs = new Vector<Graph>();
+  graphs = new ArrayList<Graph>();
     graphs.add(new Graph("poseScale"));
     graphs.add(new Graph("mouthWidth"));
     graphs.add(new Graph("mouthHeight"));
