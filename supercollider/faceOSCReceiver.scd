@@ -34,7 +34,7 @@
 
 ~facePostWindow = Window("FaceOSC", Rect(150, 400, 210, 580)).front;
 ~facePostWindow.view.addFlowLayout;
-~posts.keys.asArray.sort.do {|item, i|
+~facePost.keys.asArray.sort.do {|item, i|
 	Button(~facePostWindow, 200@40)
 	.states_([
 		[item.asString, Color.black, Color.white],
