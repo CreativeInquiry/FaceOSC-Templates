@@ -18,7 +18,7 @@ Download [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) and
 	* requires the [CNMAT Everything for Max package](http://cnmat.berkeley.edu/downloads) for the (OSC-route) object
 * [Pure Data Extended](http://puredata.info/)
 	* requires Pd-Extended for the [OSCroute] and [udpreceive] objects (part of the mrpeach external included in Pd-Extended)
-* [Supercollider](http://supercollider.sourceforge.net/)
+* [SuperCollider](http://supercollider.github.io/)
 
 Make sure FaceOSC is running and a face is detected (face mesh is drawn). The face detection runs very slowly (0.5 fps) while searching for a face. It speeds up to around 30fps once a one is found. Also, make sure you face is evenly lit.
 
