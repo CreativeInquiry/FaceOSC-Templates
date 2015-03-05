@@ -1,4 +1,5 @@
 #N canvas 24 29 728 673 10;
+#X declare -lib mrpeach;
 #X obj 39 41 udpreceive 8338;
 #X obj 39 71 unpackOSC;
 #X obj 39 543 routeOSC /position /scale /orientation;
@@ -39,6 +40,7 @@ the CMU School of Art;
 eyebrow for volume boost;
 #X text 367 95 based on the example max by Craig Fahner http://cmuems.com/2011/a/unit-60-pd/
 ;
+#X obj 614 17 import mrpeach;
 #X connect 0 0 1 0;
 #X connect 1 0 26 0;
 #X connect 2 0 4 0;
