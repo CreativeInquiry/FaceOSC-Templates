@@ -7,7 +7,7 @@ for the [Spring 2012 IACD class](http://golancourses.net/2012spring/) at the [CM
 
 Templates for receiving face tracking [Open Sound Control](http://opensoundcontrol.org/introduction-osc) messages from Kyle McDonald's [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) wrapper around Jason Saragih’s [FaceTracker](http://web.mac.com/jsaragih/FaceTracker/FaceTracker.html)
 
-Download [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads) and get started with a template project for one of the following creative coding environments:  
+Download [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/releases) and get started with a template project for one of the following creative coding environments:  
 
 * [Processing](http://processing.org/)
 	* requires the [OscP5 library](http://www.sojamo.de/libraries/oscP5/)
