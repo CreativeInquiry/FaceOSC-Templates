@@ -18,6 +18,8 @@ int highlighted; //which point is selected
 void setup() {
   size(640, 480);
   frameRate(30);
+  
+  rawArray = new float[132]; 
   oscP5 = new OscP5(this, 8338);
   oscP5.plug(this, "found", "/found");
   oscP5.plug(this, "rawData", "/raw");
@@ -34,8 +36,9 @@ void draw() {
   }
 
   fill(0); 
-  text("Use Left and Right arrow keys to cycle points", 12, 20);
-  text("current index = [" + highlighted + "," + (highlighted + 1) + "]", 12, 40);
+  text("Be certain FaceOSC is sending 'raw' data!", 12, 20); 
+  text("Use Left and Right arrow keys to cycle points", 12, 40);
+  text("current index = [" + highlighted + "," + (highlighted + 1) + "]", 12, 60);
 }
 
 //--------------------------------------------
