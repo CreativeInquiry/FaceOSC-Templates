@@ -15,9 +15,9 @@
 
 #include "Face.h"
 
-class testApp : public ofBaseApp {
+class ofApp : public ofBaseApp {
 	
-    public:
+	public:
 
 		void setup();
 		void update();
@@ -25,7 +25,7 @@ class testApp : public ofBaseApp {
 		
 		void keyPressed(int key);
 		void keyReleased(int key);
-		void mouseMoved(int x, int y );
+		void mouseMoved(int x, int y);
 		void mouseDragged(int x, int y, int button);
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
@@ -34,5 +34,5 @@ class testApp : public ofBaseApp {
 		void gotMessage(ofMessage msg);
 
 		ofxOscReceiver	receiver;
-        Face face;
+		Face face;
 };

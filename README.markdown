@@ -33,7 +33,21 @@ Make sure FaceOSC is running and a face is detected (i.e., a face mesh is drawn)
 
 -- 
 
-### Note: OpenFrameworks Version
+### OpenFrameworks
+
+#### Generating Project Files
+
+The OpenFrameworks template does not come with the project files pre-generated. You will need to use the OF ProjectGenerator to create them (you should only need to do this once).
+
+To (re)generate project files for an existing project:
+
+* click the "Import" button in the ProjectGenerator
+* navigate the to base folder for the OF project ie. "FaceOSCReceiver"
+* click the "Update" button
+
+If everything went OK, you should now be able to open the generated project and build/run.
+
+### Choosing a Version
 
 If you are using an older version (007, ...) of OpenFrameworks then you'll want to use a git tag of this repo for that version. You can select the tag in the Github "Current Branch" menu or clone and check it out using git.
 

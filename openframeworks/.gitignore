@@ -1,0 +1,11 @@
+# OSX
+*.app
+.DS_Store
+*.xcodeproj
+*.xcconfig
+openFrameworks-Info.plist
+
+# Makefiles
+Makefile
+config.make
+
