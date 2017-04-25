@@ -12,6 +12,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup() {
+	ofSetVerticalSync(true);
+	ofSetFrameRate(60);
 
 	// FaceOSC sends to port 8338 by default
 	receiver.setup(8338);
@@ -23,8 +25,8 @@ void ofApp::setup() {
 void ofApp::update() {
 
 	// check for waiting osc messages
-	while(receiver.hasWaitingMessages())
-	{
+	while(receiver.hasWaitingMessages()) {
+		
 		// get the next message
 		ofxOscMessage m;
 		receiver.getNextMessage(m);
