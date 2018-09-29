@@ -24,7 +24,7 @@ void setup() {
   // 1.5+ screen.width
   // 2.05 screenWidth
   // 2.06 displayWidth
-  size(screen.width / 6, screen.height / 6);
+  size(displayWidth, displayHeight);
   frameRate(30);
   oscP5 = new OscP5(this, 8338);
   oscP5.plug(this, "found", "/found");
